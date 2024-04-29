@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/mainMenu.css" />
+    <link rel="stylesheet" href="css/addunit.css" />
+    <!-- <link rel="stylesheet" href="css/mainMenu2.css" /> -->
+    
+  </head>
+  <body>
+    <div class="nav-container">
+      <div
+        class="d-flex justify-content-between align-content-center flex-wrap navbar-1"
+      >
+        <div class="pl-60 d-flex">
+          <img
+            src="assets/icons/Component2.svg"
+            style="margin-right: 12px"
+            class="menu-icon"
+          />
+          <div class="logo-m">
+            <img src="assets/icons/logo-m.svg" width="46px" height="29.86px" />
+          </div>
+
+          <div class="search-div">
+            <img src="assets/Navlogo.svg" alt="Logo" />
+            <input type="text" name="search" id="search" placeholder="Search" />
+            <img class="search" src="assets/icons/search1.svg" alt="search" />
+          </div>
+        </div>
+        <div
+          class="d-flex justify-content-between align-content-center flex-wrap"
+        >
+          <img src="assets/icons/bellIcon.svg" />
+          <img src="assets/icons/settings.svg" class="settings" />
+          <li class="nav-item dropdown profile-btn">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="assets/icons/fi_1946429.svg" />
+              <span>Profile Name</span>
+              <img src="assets/icons/ArrowDown.svg" />
+            </a>
+            <ul class="dropdown-menu profile-ul" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item d-flex gap-2" href="#">
+                  <img src="assets/icons/setting(2)1.svg" />
+                  <p class="m-0">Profile
+                    Settings</p>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex gap-2" href="#">
+                  <img src="assets/icons/globe(1)1.svg" />
+                  <p class="m-0">Global
+                    Settings</p>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex gap-2" href="#">
+                  <img src="assets/icons/setting(3)1.svg" />
+                  <p class="m-0">Operational
+                    Settings</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!-- <div class="dropdown">
+            <button class="dropdown-btn">
+              <img src="assets/icons/fi_1946429.svg" />
+              <span>Profile Name</span>
+              <img src="assets/icons/ArrowDown.svg" />
+            </button>
+            <div class="dropdown-content">
+              <a href="#">
+                <img src="assets/icons/setting(2)1.svg" /> &nbsp; Profile
+                Settings</a
+              >
+              <a href="#">
+                <img src="assets/icons/globe(1)1.svg" /> &nbsp; Global
+                Settings</a
+              >
+              <a href="#">
+                <img src="assets/icons/setting(3)1.svg" /> &nbsp; Operational
+                Settings</a
+              >
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light navbar-2">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar w-100 mb-2 mb-lg-0 dropdown-text">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/home.svg" />
+                  <span>HOME</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/layout-1.svg" />
+                      <p class="m-0">Dashboard</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/graph-1.svg" />
+                      <p class="m-0">Analytics</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/wrench1.svg" />
+                  <span>CONFIGURE</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/adjust(1)1.svg" />
+                      <p class="m-0">Lineage Parameters</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/tag(2)1.svg" />
+                      <p class="m-0">Attribute Parameters</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/flag1.svg" />
+                      <p class="m-0">Variable Parameters</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/big-data1.svg" />
+                      <p class="m-0" style="font-size: 14px">
+                        Data Source Parameters
+                      </p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/verified1.svg" />
+                      <p class="m-0">General Parameters</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/3d1.svg" />
+                      <p class="m-0">Modal Parameters</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/thinking1.svg" />
+                      <p class="m-0">User Settings</p>
+                      <img src="assets/icons/ArrowLineRight.svg" />
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/fi_1828824.svg" />
+                  <span>TEMPLATES</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/IconSet.svg" />
+                      <p class="m-0">Lineage Templates</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/bag1.svg" />
+                      <p class="m-0">Asset Templates</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/layout1.svg" />
+                      <p class="m-0">Variable Templates</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/box(4)1.svg" />
+                      <p class="m-0">Modal Templates</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/work-schedule1.svg" />
+                      <p class="m-0">Use Case Templates</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/graph(1)1.svg" />
+                      <p class="m-0">Analytics Templates</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/fi_3388671.svg" />
+                  <span>ASSETS</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/agenda1.svg" />
+                      <p class="m-0">Asset Class</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/package1.svg" />
+                      <p class="m-0">Asset Modal</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/fi_3199725.svg" />
+                  <span>MODELS</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/block1.svg" />
+                      <p class="m-0">Modal Class</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/fi_621995.svg" />
+                  <span>MY ASSETS</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/categories(1)1.svg" />
+                      <p class="m-0">All Assets</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/fi_2326145.svg" />
+                  <span>REVIEW</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/agenda1.svg" />
+                      <p class="m-0">List of Assets</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/flag1.svg" />
+                      <p class="m-0">List of Variable</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/3d1.svg" />
+                      <p class="m-0">List of Modals</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/question1.svg" />
+                      <p class="m-0">Special Query</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="assets/icons/fi_2326145.svg" />
+                  <span>UTILITIES</span>
+                  <img src="assets/icons/ArrowDown.svg" />
+                </a>
+                <ul class="dropdown-menu dropdown-w" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/hierachy1.svg" />
+                      <p class="m-0">Asset Taxonomy</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/tag(3)1.svg" />
+                      <p class="m-0">Tag Structure</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item d-flex gap-2" href="#">
+                      <img src="assets/icons/node1.svg" />
+                      <p class="m-0">Modal Structure</p>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <div class="dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img src="assets/icons/fi_503849.svg" />
+                    <span>UTILITIES</span>
+                    <img src="assets/icons/ArrowDown.svg" />
+                  </a>
+                  <div class="dropdown-content">
+                    <a href="#">
+                      <img src="assets/icons/hierachy1.svg" /> &nbsp; Asset
+                      Taxonomy</a
+                    >
+                    <a href="#">
+                      <img src="assets/icons/tag(3)1.svg" /> &nbsp; Tag
+                      Structure</a
+                    >
+                    <a href="#">
+                      <img src="assets/icons/node1.svg" /> &nbsp; Modal
+                      Structure</a
+                    >
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <nav class="breadcrumb-nav" aria-label="breadcrumb">
+        <h5>Units</h5>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Configure</a></li>
+          <li class="breadcrumb-item"><a href="#">Lineage Parameters</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Units</li>
+        </ol>
+      </nav>
+
+      <div class="navbar-3 d-flex justify-content-between">
+        <div class="search-container">
+          <img src="assets/icons/search2.svg" alt="" />
+          <input type="text" placeholder="Search for Units" />
+          <!-- <button type="submit"></button> -->
+        </div>
+        <div class="d-flex gap-3">
+          <div class="dropdown">
+            <button
+              class="btn-bg1 d-flex "
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span><img src="assets/icons/filter1.svg" alt="" /></span>
+              &nbsp status &nbsp
+              <li style="list-style: none">
+                <img src="assets/icons/ArrowDown.svg" />
+              </li>
+            </button>
+            <ul class="dropdown-menu status-menu-w" aria-labelledby="dropdownMenuButton1" style="list-style: none;padding: 0;">
+              <li>
+                <div class="form-row-account-switch status-form">
+                  <div class="fund-switch">
+                    <label class="switch switch1">
+                      <input type="checkbox" checked="" />
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                  <p class="small-body">Active</p>
+                </div>
+              </li>
+              <li>
+                <div class="form-row-account-switch status-form" >
+                  <div class="fund-switch">
+                    <label class="switch switch1">
+                      <input type="checkbox" checked="" />
+                      <span class="slider round"></span>
+                    </label>
+                  </div>
+                  <p class="small-body">In Active</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="overlay"></div>
+          <div>
+            <button type="button" id="openPopup" class="btn-bg">
+              + ADD UNIT
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- navbar-3 mobile view -->
+      <div class="navbar-3-mobile">
+        <div class="d-flex justify-content-end mb-3">
+          <div id="overlay"></div>
+          <div>
+            <button type="button" id="openPopup-mobile" class="btn-bg w-50%">
+              + ADD UNIT
+            </button>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between gap-2">
+          <div class="search-container">
+            <img src="assets/icons/search2.svg" alt="" />
+            <input type="text" placeholder="Search for Units" />
+            <!-- <button type="submit"></button> -->
+          </div>
+         
+            <div class="d-flex gap-3">
+              <div class="dropdown">
+                <button
+                  class="btn-bg1 d-flex status-btg-bg1 justify-content-center"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/icons/filter1.svg" alt="" />
+                  &nbsp status &nbsp
+                  <li style="list-style: none">
+                    <img src="assets/icons/ArrowDown.svg" />
+                  </li>
+                </button>
+                <ul class="dropdown-menu status-menu-w" aria-labelledby="dropdownMenuButton1" style="list-style: none;padding: 0;">
+                  <li>
+                    <div class="form-row-account-switch status-form">
+                      <div class="fund-switch">
+                        <label class="switch switch1">
+                          <input type="checkbox" checked="" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <p class="small-body">Active</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="form-row-account-switch status-form" >
+                      <div class="fund-switch">
+                        <label class="switch switch1">
+                          <input type="checkbox" checked="" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                      <p class="small-body">In Active</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          
+        </div>
+      </div>
+
+      <!-- navbar-3 mobile view end -->
+
+      <div class="table-responsive">
+        <table class="table table-striped align-middle table-text">
+          <thead class="table-head align-middle">
+            <tr>
+              <th class="table-check"><input type="checkbox" /></th>
+              <th class="col">#ID</th>
+              <th class="col">UNITS</th>
+              <th class="col">DESCRIPTION</th>
+              <th class="col">STATUS</th>
+              <th class="col">ACTION</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+
+              <td>01</td>
+              <td>Ton</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="active-status">Active</span>
+              </td>
+              <td class="d-flex justify-content-center align-content-center" style="padding-top: 12px;">
+               <span>
+                <div id="overlay2"></div>
+                <a href="#"
+                  ><img id="openPopup2" src="assets/icons/edit.svg"
+                /></a>
+               </span>
+               <span style="padding:0 8px;">
+                <div id="overlay1"></div>
+                <a href="#"
+                  ><img
+                    id="openPopup1"
+                    src="assets/icons/recycle-bin-black.svg"
+                /></a>
+               </span>
+                <span style="padding-top: 6px;">
+                <label class="switch switch1">
+                  <input type="checkbox" />
+                  <span class="slider slider1 round"></span>
+                </label>
+              </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+
+              <td>02</td>
+              <td>m</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>03</td>
+              <td>oC</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="active-status">Active</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>04</td>
+              <td>mm/s</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="active-status">Active</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>05</td>
+              <td>rpm</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>05</td>
+              <td>rpm</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>05</td>
+              <td>rpm</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>05</td>
+              <td>rpm</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td class="table-check"><input type="checkbox" /></td>
+              <td>05</td>
+              <td>rpm</td>
+              <td>Measurement for</td>
+              <td>
+                <span class="inactive">Inactive</span>
+              </td>
+              <td>
+                <img src="assets/icons/edit.svg" />
+                <img src="assets/icons/recycle-bin-black.svg" />
+                <span>
+                  <label class="switch switch1">
+                    <input type="checkbox" />
+                    <span class="slider slider1 round"></span>
+                  </label>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <a href="#">Previous</a>
+        <a href="#">1</a>
+        <a class="active" href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+
+        <a href="#">Next</a>
+      </div>
+      <!-- ADD UNit Popup -->
+
+      <div
+        id="popup"
+        class="addunit-card Width 25%"
+        style="transition: width 2s"
+      >
+        <div class="addunit-header">
+          <h4>Add Unit</h4>
+          <a href="#"
+            ><img
+              id="closePopup"
+              src="assets/icons/close.svg"
+              width="28px"
+              height="28px"
+          /></a>
+        </div>
+        <form>
+          <div class="addunit-form">
+            <div class="d-flex flex-column">
+              <label for="unit" class="addunit-form-text">Unit</label>
+              <input name="unit" id="unit" placeholder="Enter the Unit" />
+            </div>
+            <div class="d-flex flex-column">
+              <!-- <label for="description">Description</label>
+                     <input name="description" id="description" placeholder="Enter the description" class="text-area" > -->
+              <label for="description" class="addunit-form-text"
+                >Description</label
+              >
+              <textarea id="description" name="description" rows="4">
+              </textarea>
+            </div>
+            <div class="d-flex flex-column">
+              <label for="entitytype" class="addunit-form-text"
+                >Entity Type</label
+              >
+              <input
+                name="entitytype"
+                id="entitytype"
+                placeholder="List of types"
+              />
+            </div>
+            <h6>OR</h6>
+            <div class="my-8">
+              <div class="d-flex justify-content-between">
+                <p class="addunit-form-text">Bulk Upload</p>
+                <div class="d-flex justify-content-between">
+                  <p class="addunit-form-text">
+                    Download Template
+                    <span>
+                      <img
+                        src="assets/icons/lucide_download.svg"
+                        width="18px"
+                        height="18px"
+                    /></span>
+                  </p>
+                </div>
+              </div>
+              <div>
+                <!-- <input type="file" class="addunit-file-input" /> -->
+                <label class="file">
+                  <input
+                    type="file"
+                    id="fileInput"
+                    aria-label="File browser example"
+                  />
+                  <span class="file-custom" id="fileName"></span>
+                </label>
+                <p >Upload format can be XLS or CSV file</p>
+              </div>
+            </div>
+          </div>
+          <div class="addunit-card-footer">
+            <button class="discard-btn" id="discard-add">DISCARD</button>
+            <button class="update-btn">UPDATE</button>
+          </div>
+        </form>
+      </div>
+      <!-- ADD UNit Popup END -->
+      <!-- DELETE POPUP  -->
+      <!-- DELETE POPUP  -->
+      <div id="popup1" class="addunit-card">
+        <div class="addunit-header">
+          <h4>Delete</h4>
+          <a href="">
+            <img
+              id="closePopup1"
+              src="assets/icons/close.svg"
+              width="28px"
+              height="28px"
+          /></a>
+        </div>
+
+        <div class="delete-unit">
+          <img src="assets/icons/recycle-bin2.svg" width="48px" height="48px" />
+
+          <h4 class="delete-unit-h4">Delete Unit</h4>
+          <p class="delete-unit-text">
+            Are you sure you want delete this unit?
+          </p>
+        </div>
+
+        <div class="addunit-card-footer">
+          <button class="discard-btn" id="cancel-delete">CANCEL</button>
+          <button class="update-btn">CONFIRM</button>
+        </div>
+      </div>
+      <!-- Delete popUp END -->
+      <!-- Edit unit -->
+      <div id="popup2" class="addunit-card">
+        <div class="addunit-header">
+          <h4>Edit Unit</h4>
+          <a href="#"
+            ><img
+              id="closePopup2"
+              src="assets/icons/close.svg"
+              width="28px"
+              height="28px"
+          /></a>
+        </div>
+        <form>
+          <div class="addunit-form">
+            <div class="d-flex flex-column">
+              <label for="unit" class="addunit-form-text">Unit *</label>
+              <input name="unit" id="unit" placeholder="ton" />
+            </div>
+            <div class="d-flex flex-column">
+              <!-- <label for="description">Description</label>
+                        <input name="description" id="description" placeholder="Enter the description" class="text-area" > -->
+              <label for="description" class="addunit-form-text"
+                >Description</label
+              >
+              <textarea
+                id="description"
+                name="description"
+                rows="4"
+                placeholder="Enter the description"
+              >
+              </textarea>
+            </div>
+            <div class="d-flex flex-column">
+              <label for="entitytype" class="addunit-form-text"
+                >Entity Type</label
+              >
+              <input
+                name="entitytype"
+                id="entitytype"
+                placeholder="List of types"
+              />
+            </div>
+          </div>
+
+          <div class="addunit-card-footer">
+            <button class="discard-btn" id="discard--edit">DISCARD</button>
+            <button class="update-btn">UPDATE</button>
+          </div>
+        </form>
+      </div>
+      <!-- Edit Unit End -->
+
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebar-header">
+          <img class="logo" src="assets/icons/logo-m.svg" alt="logo" />
+          <img class="close-icon" src="assets/icons/sidebar-close.svg" />
+        </div>
+
+        <ul class="sidebar-menu">
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    HOME
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class=""
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/layout-1.svg" />
+                    <p class="m-0">Dashboard</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseOne"
+                  class=""
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/graph-1.svg" />
+                    <p class="m-0">Analytics</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="sidebar-menu-item">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    CONFIGURE
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <div class="accordion" id="sub-accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingOne">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            <div class="d-flex justify-content-between gap-2">
+                              <img src="assets/icons/adjust(1)1.svg" />
+                              <p class="m-0">Lineage Parameters</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseOne"
+                          class="accordion-collapse collapse show"
+                          aria-labelledby="sub-headingOne"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <ul class="accordion-body">
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Unit</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Sector</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Cluster</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Plant</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Line</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a>
+                                <img src="assets/icons/ArrowLineRight.svg" />
+                                <span>Section</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingTwo">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseTwo"
+                            aria-expanded="true"
+                            aria-controls="collapseTwo"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/tag(2)1.svg" />
+                              <p class="m-0">Attribute Parameters</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseTwo"
+                          class="accordion-collapse collapse "
+                          aria-labelledby="sub-headingTwo"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <a>
+                              <img src="assets/icons/ArrowLineRight.svg" />
+                              <span>Aaaaaaaaaa</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingThree">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseThree"
+                            aria-expanded="true"
+                            aria-controls="collapseThree"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/flag1.svg" />
+                              <p class="m-0">Variable Parameters</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseThree"
+                          class="accordion-collapse collapse "
+                          aria-labelledby="sub-headingThree"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <strong
+                              >This is the first item's accordion body.</strong
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingFour">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseFour"
+                            aria-expanded="true"
+                            aria-controls="collapseFour"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/big-data1.svg" />
+                              <p class="m-0" style="font-size: 14px">
+                                Data Source Parameters
+                              </p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseFour"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="sub-headingFour"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <strong
+                              >This is the first item's accordion body.</strong
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingFive">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseFive"
+                            aria-expanded="true"
+                            aria-controls="collapseFive"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/verified1.svg" />
+                              <p class="m-0">General Parameters</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseFive"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="sub-headingFive"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <strong
+                              >This is the first item's accordion body.</strong
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingSix">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseSix"
+                            aria-expanded="true"
+                            aria-controls="collapseSix"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/3d1.svg" />
+                              <p class="m-0">Modal Parameters</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseSix"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="sub-headingSix"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <strong
+                              >This is the first item's accordion body.</strong
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="sub-headingSeven">
+                          <button
+                            class="accordion-button d-flex justify-content-between"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#sub-collapseSeven"
+                            aria-expanded="true"
+                            aria-controls="collapseSeven"
+                          >
+                            <div class="d-flex gap-2">
+                              <img src="assets/icons/thinking1.svg" />
+                              <p class="m-0">User Settings</p>
+                            </div>
+                            <img src="assets/icons/ArrowLineRight.svg" />
+                          </button>
+                        </h2>
+                        <div
+                          id="sub-collapseSeven"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="sub-headingSeven"
+                          data-bs-parent="#sub-accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <strong
+                              >This is the first item's accordion body.</strong
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    TEMPLATES
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/IconSet.svg" />
+                    <p class="m-0">Lineage Templates</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/bag1.svg" />
+                    <p class="m-0">Asset Templates</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/layout1.svg" />
+                    <p class="m-0">Variable Templates</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/box(4)1.svg" />
+                    <p class="m-0">Modal Templates</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/work-schedule1.svg" />
+                    <p class="m-0">Use Case Templates</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/graph(1)1.svg" />
+                    <p class="m-0">Analytics Templates</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    ASSETS
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/agenda1.svg" />
+                    <p class="m-0">Asset Class</p>
+                  </div>
+                </div>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/package1.svg" />
+                    <p class="m-0">Asset Modal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    MODALS
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/block1.svg" />
+                    <p class="m-0">Modal Class</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    MY ASSETS
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/categories(1)1.svg" />
+                    <p class="m-0">All Assets</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="sidebar-menu-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    REVIEW
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSeven"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body d-flex gap-2">
+                    <img src="assets/icons/block1.svg" />
+                    <p class="m-0">Modal Class</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      // ADD UNIT POPUP //
+      document
+        .getElementById("openPopup")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("popup").style.display = "block";
+        });
+
+      //ADD UNIT MOBILE openPopup-mobile
+      document
+        .getElementById("openPopup-mobile")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "block";
+          document.getElementById("popup").style.display = "block";
+        });
+      //discard-add
+      document
+        .getElementById("discard-add")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("popup").style.display = "none";
+        });
+
+      document
+        .getElementById("closePopup")
+        .addEventListener("click", function () {
+          document.getElementById("overlay").style.display = "none";
+          document.getElementById("popup").style.display = "none";
+        });
+      // Delete popUp //
+
+      document
+        .getElementById("openPopup1")
+        .addEventListener("click", function () {
+          document.getElementById("overlay1").style.display = "block";
+          document.getElementById("popup1").style.display = "block";
+        });
+
+      document
+        .getElementById("closePopup1")
+        .addEventListener("click", function () {
+          document.getElementById("overlay1").style.display = "none";
+          document.getElementById("popup1").style.display = "none";
+        });
+
+      // cancel-delete
+      document
+        .getElementById("cancel-delete")
+        .addEventListener("click", function () {
+          document.getElementById("overlay1").style.display = "none";
+          document.getElementById("popup1").style.display = "none";
+        });
+
+      // Edit unit//
+      document
+        .getElementById("openPopup2")
+        .addEventListener("click", function () {
+          document.getElementById("overlay2").style.display = "block";
+          document.getElementById("popup2").style.display = "block";
+        });
+
+      //discard--edit
+
+      document
+        .getElementById("discard--edit")
+        .addEventListener("click", function () {
+          document.getElementById("overlay2").style.display = "none";
+          document.getElementById("popup2").style.display = "none";
+        });
+
+      document
+        .getElementById("closePopup2")
+        .addEventListener("click", function () {
+          document.getElementById("overlay2").style.display = "none";
+          document.getElementById("popup2").style.display = "none";
+        });
+
+      // sidebar
+      const bars = document.querySelector(".menu-icon");
+      const sidebar = document.querySelector(".sidebar");
+      const closingButton = document.querySelector(".close-icon");
+
+      bars.addEventListener("click", () => {
+        sidebar.classList.toggle("show-sidebar");
+      });
+
+      closingButton.addEventListener("click", () => {
+        sidebar.classList.remove("show-sidebar");
+      });
+    </script>
+  </body>
+</html>
